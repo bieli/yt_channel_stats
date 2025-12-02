@@ -43,7 +43,7 @@ SUBCOMMANDS:
     stats            Fetch stats for a channel
 ```
 
-### channel-meta command example results
+### channel-meta command example and results
 ```
 
 ```bash
