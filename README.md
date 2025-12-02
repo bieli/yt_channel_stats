@@ -60,26 +60,12 @@ Total Views: 5285686247
 Video Count: 2478
 ```
 
-### channel-meta command example and results
+### stats command example and results
 
 ```bash
 $ date
 thu, 2 dec 2025, 20:55:54 CET
 
-$ cargo run -- channel-meta google $YT_API_KEY
-
-Channel Title: Google
-Description: Welcome to Google’s official YouTube channel — join us on our mission to organize the world’s information and make it universally accessible and useful. Subscribe to stay up-to-date on our latest product updates and innovation.
-
-Published At: 2005-09-18T22:37:10Z
-Subscribers: 13700000
-Total Views: 5285686247
-Video Count: 2478
-```
-
-### stats command example and results
-
-```bash
 $ cargo run -- stats TEDx $YT_API_KEY views desc > TEDx.views.desc.txt
 
 $ head -n 5 TEDx.views.desc.txt
